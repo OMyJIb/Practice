@@ -3,10 +3,10 @@ print("Процентные ставки по депозитам в банках
 
 a = int(input("Money"))
 
-tkb = 12*((a/100)*per_cent.get('ТКБ'))
-skb = 12*((a/100)*per_cent.get('СКБ'))
-vtb = 12*((a/100)*per_cent.get('ВТБ'))
-sber = 12*((a/100)*per_cent.get('СБЕР'))
+tkb = (a/100)*per_cent.get('ТКБ')
+skb = (a/100)*per_cent.get('СКБ')
+vtb = (a/100)*per_cent.get('ВТБ')
+sber = (a/100)*per_cent.get('СБЕР')
 
 
 list_per_cent = []
