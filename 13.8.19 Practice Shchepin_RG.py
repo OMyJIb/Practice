@@ -15,13 +15,6 @@ for i in age_list:
         count_adult += 1
     else:
         print("Вы ввели возраст неверно")
-print(count_free)
-print(count_junior)
-print(count_adult)
-print(type(count_free))
-print(type(count_junior))
-print(type(count_adult))
-
 
 Total = int(count_junior * 990 + count_adult * 1390)
 if n_of_tikets < 3:
